@@ -5,7 +5,7 @@ class Pessoa:
         
     def aniversario(self):
         self.idade += 1
-        self.pab()  # Chama o método para imprimir a mensagem de parabéns
+        self.pab()  
         return self.idade
     
     def pab(self):
